@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Decorative Heading styling -->
+        <h1 class="decorative-heading">Love Calculator</h1>
+        
+        <div class="form-group">
+            <!-- Wrapped input controls to hide them easily -->
+            <div id="input-section">
+                <label class="form-label" for="firstname">Your Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="">
+                
+                <label class="form-label" for="partnername">Partner's Name</label>
+                <input type="text" id="partnername" name="partnername" placeholder="">
+            </div>
+
+            <!-- Grade Animal Image Display element -->
+            <img id="love-pic" src="" alt="Love Grade Image">
+            
+            <!-- Dual Action Button (Calculates, then can reset) -->
+            <button id="result" onclick="lovecal()">Check Match</button>
+           <h6>~ saichappa</h6>
+        </div>
+    </div>
+</body>
+</html>
